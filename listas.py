@@ -1,9 +1,7 @@
 roupas = ['Camisa','Vestido','Saia','Bermuda','Calça']
+roupas.append('Luvas de boxe')
 
-roupa = input('Digite o nome da peça que busca: ')
-
-if roupa in roupas:
-    print('Encontrada: ',roupa)
-else:
-    print('Peça não encontrada. Continue buscando!')
+for peças in roupas:
+    print(peças)
+    
     
