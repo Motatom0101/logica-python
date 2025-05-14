@@ -1,5 +1,7 @@
 roupas = ['Camisa','Vestido','Saia','Bermuda','Calça']
 
-for peças in roupas:
-    print(peças)
+if 'Camisa' in roupas:
+    print('Encontrado')
+else:
+    print('Não encontrado')
     
