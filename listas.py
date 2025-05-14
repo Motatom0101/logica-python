@@ -1,7 +1,9 @@
 roupas = ['Camisa','Vestido','Saia','Bermuda','Calça']
 
-if 'Camisa' in roupas:
-    print('Encontrado')
+roupa = input('Digite o nome da peça que busca: ')
+
+if roupa in roupas:
+    print('Encontrada: ',roupa)
 else:
-    print('Não encontrado')
+    print('Peça não encontrada. Continue buscando!')
     
