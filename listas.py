@@ -1,8 +1,8 @@
 valores = [10,20,30,30]
 
-soma = sum(valores)
+maior_valor = max(valores)
 
-print('A soma é: ', soma)
+print('Omaior valor é: ', maior_valor)
 
     
     
