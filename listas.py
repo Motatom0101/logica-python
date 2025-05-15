@@ -1,7 +1,8 @@
-roupas = ['Camisa','Vestido','Saia','Bermuda','Calça']
-roupas[1] = "Vestido Longo"
+valores = [10,20,30,30]
 
-for peças in roupas:
-    print(peças)
+soma = sum(valores)
+
+print('A soma é: ', soma)
+
     
     
