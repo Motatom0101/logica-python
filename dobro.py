@@ -5,4 +5,5 @@ def dobro(valor):
     resultado = valor * 2
     print('O resultado é: ',resultado)
 
-dobro(10)
+numero = int(input('Digite um valor: '))
+dobro(numero)
