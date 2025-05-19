@@ -2,8 +2,8 @@ print('---------- Programa que calcula o dobro ----------')
 print()
 
 def dobro(valor):
-    resultado = valor * 2
-    print('O resultado é: ',resultado)
+    return valor * 2
 
 numero = int(input('Digite um valor: '))
-dobro(numero)
+print('O resultado é: ',dobro(numero))
+
