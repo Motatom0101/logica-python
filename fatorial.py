@@ -6,5 +6,6 @@ def fatorial(numero):
         return 1
     else:
         return numero * fatorial(numero -1) 
-    
-print(fatorial(5))
+
+num = int(input('Digite um número: '))    
+print(fatorial(num))
