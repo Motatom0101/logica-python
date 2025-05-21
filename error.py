@@ -1,4 +1,11 @@
+print('---------- Programa de divisão ------------')
+print()
+
+numero = float(input('Digite um número para dividir: '))
+divisor = float(input('Digite o número divisor: '))
+
 try:
-    print(nome)
+    resultado = numero / divisor
+    print('O resultado da divisão é: ',resultado)
 except:
-    print('Algo de errado aconteceu.')
+    print('Opsss! Não será possível dividir por zero!')
