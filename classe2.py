@@ -10,7 +10,12 @@ class Smartphone:
 print('---------- Programade de Classe aula 2 ----------')
 print()
 
-celular1 = Smartphone('Apple', 'Iphone 13', 'Cinza')
+marca = input('Digite a marca: ')
+modelo = input('Digite o modelo: ')
+cor = input('Digite a cor: ')
+print('--------------------')
+
+celular1 = Smartphone(marca, modelo, cor)
 print('Marca: ',celular1.marca)
 print('Modelo: ',celular1.modelo)
 print('Cor: ',celular1.cor)
