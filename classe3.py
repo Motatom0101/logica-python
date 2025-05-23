@@ -7,14 +7,19 @@ class Smartphone:
     def ligar(acao):
         print('Fazendo chamada...')
         
-print('---------- Programade de Classe aula 2 ----------')
+print('---------- Programade de Classe aula 3 ----------')
 print()
 
 class Smartwatch(Smartphone):
-    pass
+    bussola = True
+    def status(self):
+        print('Mostrando Status de atividades...')
     
 relogio1 = Smartwatch('Xiaomi', 'Mi Mand 7', 'Preto')
 
 print('Marca: ',relogio1.marca)
 print('Modelo: ',relogio1.modelo)
 print('Cor: ',relogio1.cor)
+print('Sensor de bússola: ',relogio1.bussola)
+print()
+relogio1.status()
