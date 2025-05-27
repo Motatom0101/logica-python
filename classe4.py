@@ -7,6 +7,9 @@ class Smartphone:
     def ligar(acao):
         print('Fazendo chamada...')
         
+    def despertar(self):
+        print('Despertador do celular tocando')
+        
 print('---------- Programade de Classe aula 3 ----------')
 print()
 
@@ -16,6 +19,9 @@ class Smartwatch(Smartphone):
         self.bussola = bussola
     def status(self):
         print('Mostrando Status de atividades...')
+        
+    def despertar(self):
+        print('Despertador do relógio tocando')
     
 relogio1 = Smartwatch('Xiaomi', 'Mi Mand 7', 'Preto', 'True')
 
@@ -25,3 +31,4 @@ print('Cor: ',relogio1.cor)
 print('Sensor de bússola: ',relogio1.bussola)
 print()
 relogio1.status()
+relogio1.despertar()
